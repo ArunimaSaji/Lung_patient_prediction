@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 from PIL import Image
 import pymysql
-conn=pymysql.connect(host='localhost',user='root',password='1234',db='lung')
+conn=pymysql.connect(host='localhost',user='root',password='db_password',db='lung')
 cursor=conn.cursor()
 def main():
     st.title('Lung Patient Prediction')
