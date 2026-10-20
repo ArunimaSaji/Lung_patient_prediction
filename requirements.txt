@@ -1,0 +1,5 @@
+streamlit
+pymysql
+Pillow
+scikit-learn
+python-dotenv
